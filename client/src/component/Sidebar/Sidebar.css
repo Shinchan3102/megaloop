@@ -1,0 +1,64 @@
+.sidebar_container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 0px 10px 10px 0px;
+    height: 100vh;
+    width: fit-content;
+    background-color: rgba(0, 0, 0, 0.433);
+    border: 2px solid rgba(255, 255, 255, 0.464);
+    position: sticky;
+    top: 0px;
+}
+.category{
+    padding: 5px;
+    margin: 10px 0px;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+.category:hover{
+    background-color: blue;
+}
+
+.sidebar-element,.sidebar-element-icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sidebar-icon{
+    cursor: pointer;
+}
+.edit-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.edit-sub-container{
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.555);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+    backdrop-filter: blur(4px);
+}
+.edit-icon{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+}
+.edit-input{
+    width: 200px;
+    margin: 10px;
+    padding: 5px;
+}

@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'PT Serif', serif;
+}
+
+.navbar_container{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 45px;
+    font-size: 25px;
+    background-color: rgb(0, 17, 33);
+    color: white;
+}
+
+.icon{
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+}

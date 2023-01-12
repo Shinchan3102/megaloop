@@ -1,0 +1,83 @@
+.card{
+    width: 280px;
+    height: 160px;
+    border-radius: 10px;
+    border: 2px solid white;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: flex-start;
+    position: relative;
+    box-shadow: 3px 3px 6px black;
+    overflow: hidden;
+}
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    height: fit-content;
+    justify-content: center;
+}
+
+.youtube-container{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.youtube-sub-container{
+    width: fit-content;
+    padding: 30px;
+    position: relative;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.468);
+    backdrop-filter: blur(4px);
+    z-index: 2;
+}
+
+.crossIcon{
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.card-title{
+    background: linear-gradient(to top,rgba(255,255,255,1),rgba(0,0,0,0));
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(0, 0, 59);
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.card-title:hover{
+    background: linear-gradient(to top, rgba(0,0,0,1),rgba(0,0,0,0));
+    color: white;
+}
+.card-icon{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 25px;
+    cursor: pointer;
+    color: white;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+}
+
+.card-single-icon{
+    margin: 2px;
+    padding: 2px;
+    background-color: rgba(0, 0, 0, 0.771);
+    border-radius: 5px;
+}

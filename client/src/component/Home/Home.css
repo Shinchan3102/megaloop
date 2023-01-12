@@ -1,0 +1,6 @@
+.home-container{
+    display: flex;
+    background-color: rgb(0, 31, 54);
+    color: white;
+    position: relative;
+}

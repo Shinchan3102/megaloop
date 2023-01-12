@@ -1,0 +1,58 @@
+.create-container{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    align-items: center;
+}
+
+.create{
+    position: relative;
+    border-radius: 10px;
+    backdrop-filter: blur(4px);
+    padding: 15px;
+    box-shadow: 2px 2px 6px black;
+    width: 300px;
+    height: fit-content;
+    background-color: rgba(0, 0, 0, 0.544);
+    z-index: 2;
+    text-align: center;
+}
+
+.crossIcon{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input{
+    padding: 5px;
+    border-radius: 5px;
+    width: 100%;
+    border: 0;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+}
+
+.create-form div{
+    width: 80%;
+    margin: 10px auto;
+}
+
+input:focus,input:focus-visible{
+    outline: none;
+    border: 0;
+}
+
+.submit{
+    cursor: pointer;
+    background-color: rgb(9, 136, 255);
+    color: white;
+}
