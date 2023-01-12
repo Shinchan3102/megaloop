@@ -69,7 +69,10 @@ const Card = () => {
                     <MdEdit onClick={() => { dispatch({ type: 'UPDATE', payload: post }) }} className='card-single-icon' />
                     <TiDelete onClick={() => { handlePostDeletion(post._id) }} className='card-single-icon' />
                   </div>
-                  <div className='card-title' onClick={() => { setYoutube({ mode: true, id: getYouTubeID(post.url) }) }}>
+                  <div className='card-title' onClick={() => { 
+                    setYoutube({ mode: true, id: getYouTubeID(post.url) }); 
+                    setHistory(post);
+                  }}>
                     {post.title} <GoLinkExternal />
                   </div>
                 </div>
